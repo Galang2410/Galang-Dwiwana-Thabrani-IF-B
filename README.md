@@ -49,7 +49,7 @@ int main(){
 
     for(a = 0; a < jumlahBaris ; a++){
      for(b = 0; b < jumlahKolom; b++){
-      if(array[a][b] % 3 != 0 && array[a][b] % 5 != 0 && array[a][b] % 7 != 0) {
+      if(array[a][b] % 3 == 0 || array[a][b] % 5 == 0 || array[a][b] % 7 == 0) {
         cout << setw(3) << array[a][b] << " ";
         }
     }
@@ -72,23 +72,19 @@ Input jumlah baris:
 Input jumlah kolom:
 2
 
-Baris 1, kolom 1 = 5
+Baris 1, kolom 1 = 3
 Baris 1, kolom 2 = 7
 
-Baris 2, kolom 1 = 3
-Baris 2, kolom 2 = 4
+Baris 2, kolom 1 = 8
+Baris 2, kolom 2 = 9
 
 Hasil input:
-  5   7
-  3   4
+  3   7
+  8   9
 ==================================================
-bilangan yang tidak bisa dibagi 3,5,7 :
-
-  4
-
---------------------------------
-Process exited after 23.54 seconds with return value 0
-Press any key to continue . . .
+bilangan yang habis bisa dibagi 3,5,7 :
+  3   7
+  9
 
 
 ```
