@@ -60,3 +60,36 @@ int main(){
 ```
 
 ## Output
+
+```
+NAMA : GALANG DWIWANA THABRANI
+NIM  : 1227050048
+=========================================================
+#PROGAM MENENTUKAN MATRIKS YANG  HABIS DIBAGI 3,5,7#
+=========================================================
+Input jumlah baris:
+2
+Input jumlah kolom:
+2
+
+Baris 1, kolom 1 = 5
+Baris 1, kolom 2 = 7
+
+Baris 2, kolom 1 = 3
+Baris 2, kolom 2 = 4
+
+Hasil input:
+  5   7
+  3   4
+==================================================
+bilangan yang tidak bisa dibagi 3,5,7 :
+
+  4
+
+--------------------------------
+Process exited after 23.54 seconds with return value 0
+Press any key to continue . . .
+
+
+```
+
