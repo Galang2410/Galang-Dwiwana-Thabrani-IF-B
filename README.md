@@ -45,7 +45,7 @@ int main(){
     cout << endl;
     }
     cout<<"=================================================="<<endl;
-    cout <<"bilangan yang tidak bisa dibagi 3,5,7 : " << endl;
+    cout <<"bilangan yang habis dibagi 3,5,7 : " << endl;
 
     for(a = 0; a < jumlahBaris ; a++){
      for(b = 0; b < jumlahKolom; b++){
